@@ -1,0 +1,83 @@
+/* Fonts and colors */
+body{
+  background: rgb(240,240,240);
+  color: rgb(30,30,30);
+  font-size: 17px;
+  font-family: Lato, sans-serif;
+  margin: 0px;
+  font-weight: lighter;
+}
+h1 {
+  font-weight: bold;
+}
+h2 {
+  font-weight: bold;
+  font-size: 25px;
+  color: maroon;
+}
+a {
+  color: maroon;
+  text-decoration: none;
+}
+a:hover {
+  color: black;
+}
+
+/* Custom design with classes */
+.banner{
+  text-align: center;
+  color: white;
+  padding: 150px 0px;
+  background-image: linear-gradient(-220deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0.7) 50%);
+  background-size: cover;
+  background-position: center;
+}
+.banner h1 {
+  font-size: 50px;
+}
+.banner p {
+  opacity: 0.7;
+  font-size: 30px;
+  font-weight: lighter;
+  margin-bottom: 40px;
+}
+
+.btn-blue {
+  color: white;
+  background: black;
+  box-shadow: 0 4px 6px rgba(50,50,90,.2);
+  border-radius: 4px;
+  padding: 15px 20px;
+}
+.btn-blue:hover {
+  background: maroon;
+  color: white;
+}
+
+.intro {
+  background-color: white;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,90,.2);
+  padding: 30px;
+  margin: 10px 20px;
+}
+
+.card-white {
+  background-color: white;
+  border-radius: 4px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(50,50,90,.2);
+  padding: 16px;
+  margin: 16px 0px;
+}
+
+.card-white img {
+  margin-bottom: 20px;
+}
+
+
+/* Adjustments with id */
+#features {
+  padding: 64px 0px;
+}
